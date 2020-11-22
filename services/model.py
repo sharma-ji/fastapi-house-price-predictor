@@ -4,9 +4,10 @@ import numpy as np
 from pydantic_models.inputs import Payload, payload_to_list
 from pydantic_models.prediction import model_output
 from typing import List
-
+import os
 class HousePricePredictor(object):
 	def __init__(self,path):
+		print(os.getcwd()
 		self.path = path 
 		self._load_local_model()
 
