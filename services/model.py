@@ -7,7 +7,7 @@ from typing import List
 import os
 class HousePricePredictor(object):
 	def __init__(self,path):
-		print(os.getcwd()
+		print(os.getcwd())
 		self.path = path 
 		self._load_local_model()
 
